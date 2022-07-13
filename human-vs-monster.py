@@ -2,7 +2,7 @@ import random
 import os
 
 
-# Wipe terminal
+# Wipe terminal - Updated for git purposes
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
 
