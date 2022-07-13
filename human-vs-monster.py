@@ -7,7 +7,7 @@ def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 
-# Sets Human Attributes
+# Sets human attributes
 class Human():
     def __init__(self, name, weapon, weapon_min_damage, weapon_max_damage, health_max, health_current, potions, potion_strength, alive):
         self.name = name
@@ -56,6 +56,7 @@ class Human():
         clear()
 
 
+# Sets enemy attributes
 class Enemy():
     def __init__(self, name, weapon, weapon_min_damage, weapon_max_damage, health_max, health_current, alive):
         self.name = name
