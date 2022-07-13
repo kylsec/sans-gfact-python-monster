@@ -68,10 +68,7 @@ class Enemy():
         self.alive = alive
 
     def enemy_attack(self):
-        if enemy.health_current == 1:
-            input(f'{self.name} ran away!!\n\nPress any key to exit...')
-            self.alive = False
-        else:
+        if enemy.health_current != 1:
             if (random.randrange(0, 10) > 1):
                 damage_amount = random.randrange(
                     self.weapon_min_damage, self.weapon_max_damage)
@@ -90,6 +87,10 @@ class Enemy():
                 print(f'{self.name} roars at {player.name}!\n')
                 input('Press any key to continue...')
                 clear()
+
+        else:
+            input(f'{self.name} ran away!!\n\nPress any key to exit...')
+            self.alive = False
 
 
 # Set player data
