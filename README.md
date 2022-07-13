@@ -4,7 +4,7 @@
 
 ### Create a game that uses 2 classes: Hero() and Monster().
 
-#### The hero:
+**The hero:**
 
 * Has a weapon that does an amount of damage
 * Has an amount of health
@@ -14,7 +14,7 @@
 * Has 1 healing potion that they can drink to get back 5 health, but the potion can only be used once.
 
 
-#### The monster:
+**The monster:**
 
 * Has an attack strength and can do an amount of damage
 * Has an amount of health
